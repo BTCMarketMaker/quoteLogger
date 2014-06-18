@@ -29,7 +29,7 @@ lastQuote = db.lastQuote
 
 
 while(1):
-    #time.sleep(5)
+    time.sleep(5)
     for s in symbols:
         book = (fetch_order_book(s))
         quotes.insert(book)
